@@ -1,0 +1,49 @@
+{
+  "name": "basic-trend",
+  "version": "1.0.0",
+  "description": "Basic algorithm to detect increasing, decreasing or stable trend in a Numbers sequence",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore '**/*.test.js'",
+    "dev": "babel src --out-dir dist --watch --ignore '**/*.test.js'",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxted/basic-trend.git"
+  },
+  "keywords": [
+    "trend",
+    "statistics",
+    "math",
+    "sequence",
+    "arrays"
+  ],
+  "author": "“Valentin <valentin@whatdafox.com> (http://twitter.com/valentinprngd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxted/basic-trend/issues"
+  },
+  "homepage": "https://github.com/foxted/basic-trend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@commitlint/cli": "^8.3.3",
+    "@commitlint/config-conventional": "^8.3.3",
+    "babel-jest": "^24.9.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "standard-version": "^7.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
