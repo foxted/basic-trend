@@ -10,7 +10,8 @@
   "scripts": {
     "build": "babel src --out-dir dist --ignore '**/*.test.js'",
     "dev": "babel src --out-dir dist --watch --ignore '**/*.test.js'",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
