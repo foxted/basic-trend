@@ -23,5 +23,3 @@ const trend = trend(sequence);
 - If the given sequence appears to be increasing this method will return `1`
 - If the given sequence appears to be decreasing, this method will return `-1`
 - If the given sequence appears to be stable or scattered, this method will return `0`
-
-## Contribute
