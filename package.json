@@ -1,6 +1,6 @@
 {
   "name": "basic-trend",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Basic algorithm to detect increasing, decreasing or stable trend in a Numbers sequence",
   "source": "src/index.js",
   "main": "dist/index.js",
