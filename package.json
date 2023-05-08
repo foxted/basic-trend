@@ -5,7 +5,7 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "engines": {
-    "node": "*"
+    "node": ">=12 <=20"
   },
   "scripts": {
     "lint": "eslint src",
@@ -34,20 +34,20 @@
   },
   "homepage": "https://github.com/foxted/basic-trend#readme",
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
     "babel-eslint": "^10.0.3",
-    "babel-jest": "^27.2.1",
+    "babel-jest": "^29.5.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.24.2",
-    "husky": "^7.0.2",
-    "jest": "^27.2.1",
-    "standard-version": "^9.3.1"
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
